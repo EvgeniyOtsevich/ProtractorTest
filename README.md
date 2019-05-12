@@ -4,16 +4,18 @@
 
 ### Setup 
 1. Install npm
-2. Install protractor `npm install -g protractor`
-3. Run `webdriver-manager update`
-4. Run `webdriver-manager start`
-5. Clone projects 
+2. Clone projects 
 ```
   > https://github.com/EvgeniyOtsevich/ProtractorTest.git
 ```
+3. Run `npm install`
+
+### For running selenium server
+4. Run `webdriver-manager update`
+5. Run `webdriver-manager start`
+
 If selenium server running not on local machine edit the conf.js and replace seleniumAddress with your own
 
-6. Run `npm i jasmine-spec-reporter` for installing Jasmine reporter
-
 ### Execution  
-1. Run `protractor conf.js`
+1. Run `npm run tsc`
+2. Run `protractor tmp/conf.js`
