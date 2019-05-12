@@ -14,7 +14,7 @@
 4. Run `webdriver-manager update`
 5. Run `webdriver-manager start`
 
-If selenium server running not on local machine edit the conf.js and replace seleniumAddress with your own
+If selenium server running not on local machine edit the `conf.ts` and replace `seleniumAddress` with your own
 
 ### Execution  
 1. Run `npm run tsc`
